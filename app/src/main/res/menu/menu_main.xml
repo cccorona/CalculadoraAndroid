@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/opcion_about"
+        android:title="@string/about"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        app:icon="@drawable/abc_ratingbar_full_material"/>
+    <item android:id="@+id/opcion_rate"
+        android:title="@string/rate"
+        android:icon="@android:drawable/star_big_on"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+
+
+
+</menu>
